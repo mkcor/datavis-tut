@@ -32,6 +32,10 @@ I wanted to run the dev version of `matplotlib`, so I did:
     $ cd matplotlib
     $ pip install .
 
+If you prefer running a stable version, feel free to
+
+    $ pip install matplotlib==1.4.3
+
 Launch the Jupyter Notebook, [formerly](http://blog.jupyter.org/2015/04/15/the-big-split/)
 known as the IPython Notebook:
 
