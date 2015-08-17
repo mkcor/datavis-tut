@@ -18,12 +18,18 @@ errors, so I had to use
 
 As you can see, I tend to keep (all) my virtualenvs under `~/.virtualenv`; adapt to your own tree and practices.
 
+Activate your virtualenv:
+
     $ source ~/.virtualenv/gnode-datavis/bin/activate
     $ pip install --upgrade pip
+
+Don't deactivate it until further notice.
 
 Install all the Python packages used in this course:
 
     $ pip install -r requirements.txt
+
+### Matplotlib
 
 I wanted to run the dev version of `matplotlib`, so I did:
 
@@ -35,6 +41,15 @@ I wanted to run the dev version of `matplotlib`, so I did:
 If you prefer running a stable version, feel free to
 
     $ pip install matplotlib==1.4.3
+
+### Basemap
+
+To install `basemap`, I followed http://matplotlib.org/basemap/users/installing.html#installation
+using
+
+    $ export GEOS_DIR=~/.virtualenv/gnode-datavis/lib/python3.4/site-packages/
+
+### Jupyter
 
 Launch the Jupyter Notebook, [formerly](http://blog.jupyter.org/2015/04/15/the-big-split/)
 known as the IPython Notebook:
